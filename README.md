@@ -5,12 +5,6 @@ CT scans, computes volumetric measurements, and localizes lesions to
 Couinaud liver segments — as a foundation for AI-assisted, radiologist-
 reviewed structured reporting.
 
-> **Research prototype, not a diagnostic tool.** This pipeline is
-> AI-assisted decision-support software for research and evaluation. It has
-> not been clinically validated, does not replace radiologist review, and
-> all findings require confirmation by a qualified radiologist before any
-> clinical use.
-
 ## Problem Statement
 
 Manually reviewing liver CT scans for lesions, measuring liver segment
@@ -75,6 +69,7 @@ app/
 
 notebooks/
 └── 01_liver_segmentation_pipeline.ipynb   # Demo layer; imports app/, does not duplicate logic
+└── liver_segmentation_pipeline.ipynb      
 
 tests/
 └── test_analysis.py, test_pipeline.py     # Unit tests, incl. synthetic NIfTI masks
