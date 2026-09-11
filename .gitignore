@@ -8,3 +8,7 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Pipeline outputs (segmentation results, generated CSVs)
+liver_seg_outputs/
+CT_scans/

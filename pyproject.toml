@@ -1,11 +1,20 @@
 [project]
 name = "liver-lesion-segmentation"
 version = "0.1.0"
-description = "Add your description here"
+description = "AI-assisted liver lesion segmentation and structured findings, built on TotalSegmentator."
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
     "fastapi>=0.139.2",
     "numpy>=2.2.6",
     "uvicorn>=0.51.0",
+    "pydantic>=2.0",
+    "pandas>=2.2",
+    "nibabel>=5.2",
+    "TotalSegmentator>=2.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0",
 ]
