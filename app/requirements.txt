@@ -1,0 +1,9 @@
+gradio>=4.44
+nibabel
+numpy
+scipy
+pandas
+pillow
+TotalSegmentator>=2.5
+anthropic            # optional, only for --llm / "Rephrase impression"
+# RADAR: install its own requirements from damo-radar/requirements.txt (as in your RADAR notebook)
