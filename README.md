@@ -228,7 +228,7 @@ Contributions, issues, and suggestions are welcome. To contribute:
 
 ## License
 
-No license is currently specified. Add a `LICENSE` file (for example MIT or Apache-2.0) to define terms of use and contribution.
+No license is currently specified. 
 
 ## Acknowledgements
 
